@@ -1,0 +1,65 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 350px;
+    width: 100%;
+    background-color: lightgrey;
+}
+.container 
+{
+    height: 760px;
+    align-items: center;
+    margin: auto;     
+    background-color:mintgreen;
+    padding: 20px;
+    font-family: "Poppins", sans-serif;
+    border-radius: 20px;
+    border: 5px solid black;
+}
+.container form{
+    position: fixed;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    border: 1px solid black;
+    padding: 30px;
+    padding: auto;
+    border-radius: 20px;
+    height: 620px;
+    border-block: none;
+}
+.gender-box{
+    display: flex;
+    gap: 20px;
+    margin-top: -20px;
+    justify-content: space-around;
+    cursor: pointer;
+}
+.second-row{
+    display: flex;
+    gap:30px;
+}
+.address{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+input[type="text"], input[type="email"], input[type="date"]
+{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none
+}
